@@ -36,6 +36,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
   spec.source_files = "Classes", "Classes/**/*"
-  spec.public_header_files     = "Classes/**/*/.h"
+  spec.public_header_files     = "Classes/MentaVlionBaseSDK.framework/Headers/*.h"
   spec.vendored_frameworks     = 'Classes/MentaVlionBaseSDK.framework'
 end
