@@ -34,7 +34,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/shicymenta/MentaVlionBaseSDK.git", :tag => "#{spec.version}" }  #
 
   spec.requires_arc = true
-  valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']  
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
-  
+  spec.source_files = "Classes", "Classes/**/*"
+  spec.public_header_files     = "Classes/**/*/.h"
+  spec.vendored_frameworks     = 'Classes/MentaVlionBaseSDK.framework'
 end
