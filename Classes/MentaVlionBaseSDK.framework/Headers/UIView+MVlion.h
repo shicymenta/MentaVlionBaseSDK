@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIInterfaceOrientation)mvl_statusBarOrientation;
 
++ (CGFloat)mvl_safeAreaBottomHeight;
 @end
 
 @interface UIView (MVlion)
