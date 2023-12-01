@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MentaVlionBaseSDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "MentaVlionBaseSDK 基础库"
 
   spec.description  = <<-DESC
@@ -33,10 +33,10 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/shicymenta/MentaVlionBaseSDK.git", :tag => "#{spec.version}" }  #
 
-  spec.requires_arc = true
-  spec.static_framework = true
+  spec.frameworks       = 'StoreKit', 'SafariServices', 'MessageUI', 'CoreMedia', 'CoreMotion', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'AVFoundation', 'AdSupport'
+  spec.libraries        = 'c++'
+  spec.weak_frameworks = "WebKit"
+
   # spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
-  spec.source_files = "Classes", "Classes/**/*"
-  spec.public_header_files     = "Classes/MentaVlionBaseSDK.framework/Headers/*.h"
   spec.vendored_frameworks     = 'Classes/MentaVlionBaseSDK.framework'
 end
