@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MentaVlionBaseSDK"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "MentaVlionBaseSDK 基础库"
 
   spec.description  = <<-DESC
@@ -28,8 +28,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "shicymenta" => "shicy@mentamob.com" }
-  spec.platform     = :ios, "12.0" 
-  spec.ios.deployment_target = '12.0'
+  spec.platform     = :ios, "9.0" 
+  spec.ios.deployment_target = '9.0'
 
   spec.source       = { :git => "https://github.com/shicymenta/MentaVlionBaseSDK.git", :tag => "#{spec.version}" }  #
 
