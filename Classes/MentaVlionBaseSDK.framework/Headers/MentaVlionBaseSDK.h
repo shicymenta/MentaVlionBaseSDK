@@ -40,4 +40,9 @@
 #import <MentaVlionBaseSDK/MVlionLog.h>
 
 #import <MentaVlionBaseSDK/MVlionBaseToolBox.h>
+#import <MentaVlionBaseSDK/MentaVlionCommonEnum.h>
+
+#import <MentaVlionBaseSDK/MENTAKVOController.h>
+#import <MentaVlionBaseSDK/NSObject+MENTAKVOController.h>
+
 #endif /* MentaVlionBaseSDK_h */

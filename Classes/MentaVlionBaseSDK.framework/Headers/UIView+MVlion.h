@@ -27,6 +27,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIInterfaceOrientation)mvl_statusBarOrientation;
 
 + (CGFloat)mvl_safeAreaBottomHeight;
+
++ (UIScrollView *)mvl_findScrollViewInSuperviews:(UIView *)view;
+
+- (BOOL)mvl_isDisplayedInScrollView:(UIScrollView *)scrollView;
 @end
 
 @interface UIView (MVlion)
