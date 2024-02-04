@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (CGFloat)mvl_safeAreaBottomHeight;
 
+- (void)addRoundedCornersWithRadius:(CGFloat)radius atCorners:(UIRectCorner)corners;
+
 + (UIScrollView *)mvl_findScrollViewInSuperviews:(UIView *)view;
 
 - (BOOL)mvl_isDisplayedInScrollView:(UIScrollView *)scrollView;

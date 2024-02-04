@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MentaVlionBaseSDK"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "MentaVlionBaseSDK 基础库"
 
   spec.description  = <<-DESC

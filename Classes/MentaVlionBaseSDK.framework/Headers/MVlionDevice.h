@@ -14,9 +14,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)getUUID;
 
++ (NSString *)getIDFV;
+
 + (NSString *)getIPAddress;
 
 + (BOOL)getIsIphone;
+
++ (NSString *)getDeviceModelName;
 
 + (NSString *)getDeviceModel;
 
@@ -35,6 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getUpdateTime;
 
 + (NSString *)md5:(NSString *)str;
+
++ (NSString *)getLanguage;
+
++ (NSString *)getTimeZoneName;
+
++ (NSString *)getSystemInitTime;
 
 @end
 
