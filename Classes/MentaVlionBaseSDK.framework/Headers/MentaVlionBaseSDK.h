@@ -3,7 +3,7 @@
 //  MentaVlionSDK
 //
 //  Created by iMacMe on 2023/11/20.
-//
+//  0.0.8
 
 #ifndef MentaVlionBaseSDK_h
 #define MentaVlionBaseSDK_h

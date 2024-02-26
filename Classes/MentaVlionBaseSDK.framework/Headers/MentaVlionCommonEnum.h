@@ -7,6 +7,7 @@
 
 /* * * * * * * * * * * * * * * * * * * * * 开屏广告 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 // 开屏广告关闭方式
+// 注意: 如果广告源不支持跳过的业务逻辑, 一律按照倒计时结束处理
 typedef NS_ENUM(NSUInteger, MentaSplashAdCloseMode) {
     MentaSplashAdCloseMode_ByClickAd,        // 点击广告关闭
     MentaSplashAdCloseMode_ByClickSkip,      // 点击跳过
