@@ -46,6 +46,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)getSystemInitTime;
 
++ (NSString *)getSysU;
+
++ (NSString *)getBootTimeInSec;
 @end
 
 NS_ASSUME_NONNULL_END

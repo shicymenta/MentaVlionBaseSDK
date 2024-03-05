@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MentaVlionBaseSDK"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "MentaVlionBaseSDK 基础库"
 
   spec.description  = <<-DESC
-               基础库
+               基础库ß
                    DESC
 
   spec.homepage     = "https://github.com/shicymenta/MentaVlionBaseSDK"

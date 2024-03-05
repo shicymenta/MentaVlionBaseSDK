@@ -9,6 +9,7 @@
 // 开屏广告关闭方式
 // 注意: 如果广告源不支持跳过的业务逻辑, 一律按照倒计时结束处理
 typedef NS_ENUM(NSUInteger, MentaSplashAdCloseMode) {
+    MentaSplashAdCloseMode_Unknown,          // 有些广告源无法支持该业务 统一回调 unknown
     MentaSplashAdCloseMode_ByClickAd,        // 点击广告关闭
     MentaSplashAdCloseMode_ByClickSkip,      // 点击跳过
     MentaSplashAdCloseMode_TimeOver,         // 倒计时结束时关闭
@@ -63,6 +64,7 @@ typedef NS_ENUM(NSUInteger, MentaRewardVideoAdViewGravity) {
 
 // 激励视频广告关闭模式
 typedef NS_ENUM(NSUInteger, MentaRewardVideoAdCloseMode) {
+    MentaRewardVideoAdCloseMode_Unknown,          // 有些渠道不支持跳过业务,则关闭时统一回调 unknown
     MentaRewardVideoAdCloseMode_ByClickSkip,      // 点击跳过
     MentaRewardVideoAdCloseMode_TimeOver,         // 倒计时结束时关闭
 };
