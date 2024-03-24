@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MENTAKVOController.h"
 
+#import <MentaVlionBaseSDK/MENTAKVOController.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /**
