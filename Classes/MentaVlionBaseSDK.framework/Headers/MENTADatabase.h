@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
-#import "MENTAResultSet.h"
-#import "MENTADatabasePool.h"
+#import <MentaVlionBaseSDK/MENTAResultSet.h>
+#import <MentaVlionBaseSDK/MENTADatabasePool.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

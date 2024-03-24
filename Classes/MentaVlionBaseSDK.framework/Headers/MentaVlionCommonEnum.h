@@ -120,3 +120,20 @@ typedef NS_ENUM(NSUInteger, MentaAdTemplateViewState) {
     MentaAdTemplateViewState_EndCard,          // 结束页
 };
 
+/* * * * * * * * * * * * * * * * * * * * * banner广告 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// 开屏广告物料填充模式(视频或者图片素材的填充方式)
+typedef NS_ENUM(NSUInteger, MentaBannerAdMaterialFillMode) {
+    MentaBannerAdMaterialFillMode_ScaleAspectFit,// 默认
+    MentaBannerAdMaterialFillMode_ScaleAspectFill,
+    MentaBannerAdMaterialFillMode_ScaleToFill,
+};
+
+// 模版填充样式(整个广告ADview相对于Container的填充方式)
+typedef NS_ENUM(NSUInteger, MentaBannerAdTemplateFillMode) {
+    MentaBannerAdTemplateFillMode_AutomaticDetection, // 默认 (容器)
+    MentaBannerAdTemplateFillMode_ScaleAspectFill,
+    MentaBannerAdTemplateFillMode_ScaleToFill,
+    MentaBannerAdTemplateFillMode_ScaleAspectFit,
+};
+
+/* * * * * * * * * * * * * * * * * * * * * banner广告 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */

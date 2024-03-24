@@ -41,7 +41,7 @@
 
 #import <MentaVlionBaseSDK/MENTADB.h>
 #import <MentaVlionBaseSDK/MentaLocationManager.h>
-#import <MentaVlionBaseSDK/MentaWifiRoute.h>
+
 
 #import <MentaVlionBaseSDK/MentaAESCryptoHelper.h>
 #import <MentaVlionBaseSDK/MentaVlionCommonEnum.h>
@@ -53,7 +53,7 @@
 
 #import <MentaVlionBaseSDK/MentaBaseCommonParameter.h>
 
-
+#import <MentaVlionBaseSDK/MULocation.h>
 
 #endif /* MentaVlionBaseSDK_h */
 

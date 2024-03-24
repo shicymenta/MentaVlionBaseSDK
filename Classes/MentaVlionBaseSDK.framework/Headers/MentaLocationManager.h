@@ -12,12 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MentaLocationManager : NSObject 
 @property (nonatomic, assign, readonly) double latitude;
 @property (nonatomic, assign, readonly) double longitude;
-@property (nonatomic, copy, readonly) NSString *ssid;
-@property (nonatomic, copy, readonly) NSString *bssid;
-@property (nonatomic, copy, readonly) NSString *wifiName;
 
+@property (nonatomic, assign) BOOL isCanUseLocation;
 + (instancetype)sharedManager;
 
+- (void)startUpdatingLocation;
 
 @end
 

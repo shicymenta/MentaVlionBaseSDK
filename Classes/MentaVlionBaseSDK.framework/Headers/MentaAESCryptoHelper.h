@@ -8,8 +8,8 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-NSString * advanceAesEncryptString(NSString *content, NSString *key);
-NSString * advanceAesDecryptString(NSString *content, NSString *key);
+NSString * mentaAesEncryptString(NSString *content, NSString *key);
+NSString * mentaAesDecryptString(NSString *content, NSString *key);
 
 @interface MentaAESCryptoHelper : NSObject
 
@@ -19,8 +19,8 @@ NSString * advanceAesDecryptString(NSString *content, NSString *key);
 
 
 
-//+ (NSString *)encrypt:(NSString *)plainText key:(NSString *)key iv:(NSString *)iv;
-//+ (NSString *)decrypt:(NSString *)cipherText key:(NSString *)key iv:(NSString *)iv;
++ (NSString *)encrypt:(NSString *)plainText key:(NSString *)key iv:(NSString *)iv;
++ (NSString *)decrypt:(NSString *)cipherText key:(NSString *)key iv:(NSString *)iv;
 
 @end
 

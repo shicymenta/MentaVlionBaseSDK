@@ -3,8 +3,8 @@
 FOUNDATION_EXPORT double MENTADBVersionNumber;
 FOUNDATION_EXPORT const unsigned char MENTADBVersionString[];
 
-#import "MENTADatabase.h"
-#import "MENTAResultSet.h"
-#import "MENTADatabaseAdditions.h"
-#import "MENTADatabaseQueue.h"
-#import "MENTADatabasePool.h"
+#import <MentaVlionBaseSDK/MENTADatabase.h>
+#import <MentaVlionBaseSDK/MENTAResultSet.h>
+#import <MentaVlionBaseSDK/MENTADatabaseAdditions.h>
+#import <MentaVlionBaseSDK/MENTADatabaseQueue.h>
+#import <MentaVlionBaseSDK/MENTADatabasePool.h>

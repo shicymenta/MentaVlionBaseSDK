@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MENTADatabase.h"
+#import <MentaVlionBaseSDK/MENTADatabase.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
